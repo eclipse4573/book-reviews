@@ -24,7 +24,7 @@ st.write(BOOK_OPINION)
 st.markdown("---")
 st.header("Related Document")
 
-with open(r"C:\Users\tanis\Downloads\School\AnimalFarmThesis.pdf", "rb") as pdf_file:
+with open(r"C:/Users/tanis/Downloads/School/AnimalFarmThesis.pdf", "rb") as pdf_file:
     file = pdf_file.read()
 
 st.download_button(
