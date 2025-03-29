@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 BOOK_TITLE = "Animal Farm"
-BOOK_AUTHOR = "by George Orwell"
+BOOK_AUTHOR = "George Orwell"
 BOOK_OPINION = """
 ADD MY OPINION HERE LATER
 """
@@ -24,7 +24,7 @@ st.write(BOOK_OPINION)
 st.markdown("---")
 st.header("Related Document")
 
-with open(PDF_PATH, "rb") as file:
+with open(PDF_PATH) as file:
     st.download_button(
         label="Download PDF",
         data=file,
