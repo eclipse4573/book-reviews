@@ -12,7 +12,7 @@ BOOK_OPINION = """
 ADD MY OPINION HERE LATER
 """
 
-PDF_PATH = "C:\users\tanis\Downloads\School\Thesis Final Draft Grade 9.pdf"
+PDF_PATH = r"C:\Users\tanis\Downloads\School\Thesis Final Draft Grade 9.pdf"
 
 st.title(f"📚 {BOOK_TITLE}")
 st.subheader(f"by {BOOK_AUTHOR}")
