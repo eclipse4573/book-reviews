@@ -24,13 +24,12 @@ st.write(BOOK_OPINION)
 st.markdown("---")
 st.header("Related Document")
 
-with open(PDF_PATH) as file:
-    st.download_button(
-        label="Download PDF",
-        data=file,
-        file_name="book_document.pdf",
-        mime="application/pdf"
-    )
+st.download_button(
+    label="Download PDF",
+    data=PDF_PATH,
+    file_name="thesis_animal-farm.pdf",
+    mime="application/pdf"
+)
 
 st.markdown("---")
 # st.caption("Last updated: [Add your date here]")
