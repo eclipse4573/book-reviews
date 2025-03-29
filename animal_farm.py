@@ -24,9 +24,12 @@ st.write(BOOK_OPINION)
 st.markdown("---")
 st.header("Related Document")
 
+with open("PDF_PATH", "rb") as pdf_file:
+    file = pdf_file.read()
+
 st.download_button(
     label="Download PDF",
-    data=PDF_PATH,
+    data=file,
     file_name="thesis_animal-farm.pdf",
     mime="application/pdf"
 )
